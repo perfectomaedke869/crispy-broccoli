@@ -1,0 +1,9 @@
+import random
+
+# 生成随机的循环计数器名称和循环次数
+counter_name = random.choice(["i", "j", "k"])
+loop_count = random.randint(1, 10)
+
+# 生成带有循环计数器的for循环
+for counter_name in range(loop_count):
+    print(counter_name)
